@@ -1,0 +1,26 @@
+#nav
+.nav
+  .nav__items
+    .nav__menu(onclick="toggle()")
+      .icon_menu(onclick="changeClass(this)")
+    .nav__title Mobile tyres
+  .nav__phone
+    a(href="tel:+447522868930", target="_blank") CALL US +44-7522-868930
+  #nav__links(style="display: none")
+    a(href="#about", style="background-color: #a2b8dd") Our services
+    a(href="#updates", style="background-color: #8faad6") Updates
+    a(href="#area", style="background-color: #7d9ccf") Area we cover
+    a(href="#gallery", style="background-color: #6a8ec8") Gallery
+    a(href="#contact", style="background-color: #5780c1") Contact
+script.
+  function toggle () {
+    var navLinks = document.getElementById('nav__links');
+    if(navLinks.style.display === "flex") {
+      navLinks.style.display = "none"
+    } else {
+      navLinks.style.display = "flex"
+    }
+  }
+  function changeClass (x) {
+    x.classList.toggle("icon_cross")
+  }

@@ -1,0 +1,135 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?uav2fw');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?uav2fw#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?uav2fw') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?uav2fw') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?uav2fw##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon_"], [class*=" icon_"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon_automobile {
+  &:before {
+    content: $icon_automobile; 
+  }
+}
+.icon_home {
+  &:before {
+    content: $icon_home; 
+  }
+}
+.icon_pencil {
+  &:before {
+    content: $icon_pencil; 
+  }
+}
+.icon_quill {
+  &:before {
+    content: $icon_quill; 
+  }
+}
+.icon_phone {
+  &:before {
+    content: $icon_phone; 
+  }
+}
+.icon_address-book {
+  &:before {
+    content: $icon_address-book; 
+  }
+}
+.icon_pushpin {
+  &:before {
+    content: $icon_pushpin; 
+  }
+}
+.icon_wrench {
+  &:before {
+    content: $icon_wrench; 
+  }
+}
+.icon_cogs {
+  &:before {
+    content: $icon_cogs; 
+  }
+}
+.icon_hammer {
+  &:before {
+    content: $icon_hammer; 
+  }
+}
+.icon_magic-wand {
+  &:before {
+    content: $icon_magic-wand; 
+  }
+}
+.icon_leaf {
+  &:before {
+    content: $icon_leaf; 
+  }
+}
+.icon_truck {
+  &:before {
+    content: $icon_truck; 
+  }
+}
+.icon_menu {
+  &:before {
+    content: $icon_menu; 
+  }
+}
+.icon_cancel-circle {
+  &:before {
+    content: $icon_cancel-circle; 
+  }
+}
+.icon_cross {
+  &:before {
+    content: $icon_cross; 
+  }
+}
+.icon_facebook {
+  &:before {
+    content: $icon_facebook; 
+  }
+}
+.icon_whatsapp {
+  &:before {
+    content: $icon_whatsapp; 
+  }
+}
+.icon_twitter {
+  &:before {
+    content: $icon_twitter; 
+  }
+}
+.icon_youtube {
+  &:before {
+    content: $icon_youtube; 
+  }
+}
+.icon_linkedin {
+  &:before {
+    content: $icon_linkedin; 
+  }
+}
+

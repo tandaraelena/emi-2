@@ -1,0 +1,50 @@
+.area {
+  margin-top: 2rem;
+  text-align: center;
+
+  &_content {
+    position: relative;
+  }
+
+  &_content-text {
+    position: absolute;
+    top: 0;
+
+    width: 250px;
+    background-color: white;
+
+  }
+
+  &_img-wheel {
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  &_content-text {
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 270px;
+    padding: 10px;
+    -webkit-box-shadow: 4px 1px 8px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 1px 8px 1px rgba(0,0,0,0.75);
+    box-shadow: 4px 1px 8px 1px rgba(0,0,0,0.75);
+  }
+  
+  &_content-map {
+    position: relative;
+    height: 16em;
+  }
+
+  &_img-map {
+    position: absolute;
+    bottom: 10px;
+    right: 90px;
+    width: 18em;
+    height: 18em;
+  }
+}

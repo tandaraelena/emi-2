@@ -1,0 +1,31 @@
+-
+  let cards = [
+    {
+      title: '24/7 Mobile Callout',
+      icon: 'hammer'
+    },
+    {
+      title: 'Mobile Tyre Fitting',
+      icon: 'automobile'
+    },
+    {
+      title: 'Mobile Tyre Repair',
+      icon: 'truck'
+    },
+    {
+      title: 'Mobile Tyre replacement',
+      icon: 'wrench'
+    }
+  ]
+
+#about
+.about
+  h1 Our services
+  .line_wrapper
+    hr
+  p Emergency Tyre fitting at your home or work 24/7, 7 days a week, 365 days a year. We will come to you to fit your tyre, with our fittings meeting the industry standards. We'll check to see if your tyre is repairable and will repair it if it's safe to do so. If on inspection your tyre is not repairable, we will be able to fit one of our own and get your moving
+  .cards
+    each card in cards
+      .card
+        p(class=`icon_${card.icon}`)
+        .card_title=card.title

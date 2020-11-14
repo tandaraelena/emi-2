@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  font-size: calc(12px + (24 - 12)*((100vmin - 400px)/(800 - 400))); 
+}
+
+.content {
+  position: relative;
+}
+
+.line_wrapper {
+  display: inline-flex;
+  padding: 5px;
+  align-items: center;
+
+  hr {
+    width: 3em;
+    margin-bottom: 2rem;
+  }
+}

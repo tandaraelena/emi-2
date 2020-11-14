@@ -1,0 +1,21 @@
+doctype html
+html
+  block basic-config
+  head
+    title=myTitleForGoogleSearch
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    meta(name="description", content=myDescriptionForGoogleSearch)
+    link(rel="stylesheet", href="style.css")
+  body
+    block content
+    .content
+      include ../nav/nav
+      include ../header/header
+      include ../about/about
+      include ../updates/updates
+      include ../area/area
+      include ../gallery/gallery
+      include ../contact/contact
+      include ../footer/footer
