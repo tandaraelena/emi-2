@@ -9,13 +9,5 @@ html
     meta(name="description", content=myDescriptionForGoogleSearch)
     link(rel="stylesheet", href="style.css")
   body
-    block content
     .content
-      include ../nav/nav
-      include ../header/header
-      include ../about/about
-      include ../updates/updates
-      include ../area/area
-      include ../gallery/gallery
-      include ../contact/contact
-      include ../footer/footer
+      block content
