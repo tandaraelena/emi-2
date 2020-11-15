@@ -3,9 +3,11 @@
   .nav__items
     .nav__menu(onclick="toggle()")
       .icon_menu(onclick="changeClass(this)")
-    .nav__title Mobile tyres
-  .nav__phone
-    a(href="tel:+447522868930", target="_blank") CALL US +44-7522-868930
+    .nav__logo
+      img(src=`${baseUrl}asset/image/logo.png`)
+    .nav__phone
+      a(href="tel:+447522868930", target="_blank")
+        .icon_phone
   #nav__links(style="display: none")
     a(href="#about", style="background-color: #a2b8dd") Our services
     a(href="#updates", style="background-color: #8faad6") Updates
