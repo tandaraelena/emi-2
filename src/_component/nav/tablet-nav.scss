@@ -1,0 +1,32 @@
+@media only screen and (min-width: $screen-md) {
+  .nav {
+    display: grid;
+    grid-template-columns: 25% 75%;
+  }
+  
+  .nav__items {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .nav__menu {
+    display: none;
+  }
+
+  .nav__links {
+    display: flex;
+    flex-flow: row-reverse;
+    align-items: center;
+
+    a {
+      text-decoration: none;
+      color: $color-blue-zodiac;
+      padding-left: 8px;
+    }
+
+    a:hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+}
