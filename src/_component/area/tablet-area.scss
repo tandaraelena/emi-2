@@ -1,0 +1,31 @@
+@media only screen and (min-width: $screen-md) {
+  .area {
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+    &_img-wheel {
+      display: none;
+    }
+
+    &_content-text {
+      position: relative;
+      background-color: white;
+      top: 10px;
+      left: 0;
+      width: 100%;
+      width: 100%;
+      padding: 0 30px;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+    }
+
+    &_img-map {
+      position: relative;
+      width: calc(100% / 1.5);
+      height: auto;
+      bottom: -25px;
+      right: 0;
+    }
+  }
+
+}
