@@ -1,0 +1,14 @@
+@media only screen and (min-width: $screen-md) {
+  .updates {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .updates_photo {
+    order: -1;
+  }
+  .line_wrapper {
+    hr {
+      margin-bottom: 1rem;
+    }
+  }
+}
