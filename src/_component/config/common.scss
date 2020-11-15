@@ -1,0 +1,9 @@
+%shared-layout {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+$screen-md: 768px; // Medium screen / desktop
+$screen-lg: 992px; // Large screen / wide desktop
+$screen-xl: 1200px; // Extra large screen / full hd
+$screen-xxl: 1600px; // Extra extra large screen / large desktop

@@ -1,0 +1,6 @@
+@media only screen and (min-width: $screen-md) {
+  .about {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+}
