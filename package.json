@@ -18,12 +18,12 @@
   },
   "//": "CUSTOM CONFIGURATION",
   "installConfig": {
-    "pnp": false
+    "pnp": true
   },
   "config": {
-    "customUrl": "http://pug-starter.codetap.academy",
+    "customUrl": "https://p1tyres.co.uk",
     "githubUrl": "http://github.com/tandaraelena/emi-2.git",
-    "deployToGithubIo": true,
+    "deployToGithubIo": false,
     "directory": {
       "development": "tmp",
       "production": "build",
